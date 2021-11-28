@@ -3,14 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="styles.css" />
     <title>50 Projects</title>
   </head>
   <body>
-    <div class="home-container">
+    <div class="home-container container">
       <header class="header">
-        <h1 class="heading-1">50 Projects</h1>
-        <p class="description">
+        <h1 class="header__heading">50 Projects</h1>
+        <p class="header__description">
           Collection of 50 Projects made from
           <a
             href="https://www.udemy.com/course/50-projects-50-days/"
@@ -20,13 +28,16 @@
         </p>
       </header>
       <section class="projects-container">
-        <div class="project">
-          <div class="project__card-container">
-            <img src="#" alt="project screenshot" class="project__screenshot" />
-            <h1 class="project__heading">Day 1 - Expanding Cards</h1>
-            <p class="project__description">
-              A tribute to my favorite outdoor places to visit in Spokane, WA
-            </p>
+        <!-- PROJECTS 1-10 -->
+        <div class="project__card-container">
+          <img src="#" alt="project screenshot" class="project__screenshot" />
+          <h1 class="project__heading">Day 1 - Expanding Cards</h1>
+          <p class="project__description">
+            A tribute to my favorite outdoor places to visit in Spokane, WA
+          </p>
+          <div class="project__links">
+            <a href="#" class="project__links-github">View code</a>
+            <a href="" class="project__links-demo">View demo</a>
           </div>
         </div>
       </section>

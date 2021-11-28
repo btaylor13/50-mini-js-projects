@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  overflow-x: hidden;
+  color: #141c3a; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif; }
+
+.container {
+  padding-inline: 2rem;
+  margin-inline: auto;
+  max-width: 85rem; }
+
+.header {
+  text-align: center;
+  margin-block: 7rem; }
+  .header__heading {
+    font-size: 3rem;
+    margin-bottom: 1.9rem; }
+
+.projects-container {
+  display: grid; }
+
+.project__card-container {
+  max-width: 23rem;
+  text-align: center; }
+
+.project__heading {
+  color: #750ff7; }

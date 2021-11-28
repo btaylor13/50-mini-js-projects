@@ -1,0 +1,54 @@
+@import "base";
+@import "variables";
+
+body {
+  font-family: $ff-body;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  overflow-x: hidden;
+  color: $color-dark;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $ff-display;
+}
+
+.container {
+  padding-inline: 2rem;
+  margin-inline: auto;
+  max-width: 85rem;
+}
+
+.header {
+  text-align: center;
+  margin-block: 7rem;
+
+  &__heading {
+    font-size: 3rem;
+    margin-bottom: 1.9rem;
+  }
+}
+
+.projects-container {
+  display: grid;
+}
+
+.project {
+  &__card-container {
+    max-width: 23rem;
+    text-align: center;
+  }
+
+  &__screenshot {
+  }
+
+  &__heading {
+    color: $color-purple;
+  }
+
+  &__description {
+  }
+}
