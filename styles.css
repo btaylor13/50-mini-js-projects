@@ -24,21 +24,49 @@ h4 {
 .container {
   padding-inline: 2rem;
   margin-inline: auto;
-  max-width: 85rem; }
+  max-width: 95rem; }
 
 .header {
   text-align: center;
-  margin-block: 7rem; }
+  margin-block: 3rem; }
   .header__heading {
     font-size: 3rem;
-    margin-bottom: 1.9rem; }
+    margin-bottom: 1.7rem; }
+  .header__description {
+    width: 70%;
+    margin: 0 auto; }
+  .header__link {
+    color: #750ff7; }
 
 .projects-container {
-  display: grid; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.9rem 1.3rem;
+  margin: 0 auto; }
 
-.project__card-container {
-  max-width: 23rem;
-  text-align: center; }
-
-.project__heading {
-  color: #750ff7; }
+.project {
+  margin: 0 auto; }
+  .project__card-container {
+    max-width: 23rem;
+    width: 100%;
+    text-align: center;
+    background-color: #141c3a;
+    border-radius: 13px;
+    margin: 0 auto; }
+  .project__text-content {
+    width: 93%;
+    margin: 0 auto; }
+  .project__heading {
+    color: white;
+    margin-block: 1.3rem; }
+  .project__description {
+    color: white;
+    margin-bottom: 1.3rem; }
+  .project__links {
+    margin-bottom: 1.9rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    column-gap: 1.7rem; }
+    .project__links-github, .project__links-demo {
+      color: #e6ecf8; }
