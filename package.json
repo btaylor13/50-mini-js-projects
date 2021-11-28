@@ -1,0 +1,14 @@
+{
+  "name": "50-projects-mini",
+  "version": "1.0.0",
+  "description": "collection of 50 projects using html, css, and javascript",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles.css -w"
+  },
+  "author": "Bridgett Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
