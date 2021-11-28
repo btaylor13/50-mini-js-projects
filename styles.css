@@ -53,6 +53,13 @@ h4 {
     background-color: #141c3a;
     border-radius: 13px;
     margin: 0 auto; }
+  .project__screenshot {
+    border-radius: 13px 13px 0 0;
+    background: url(../dashimages/expanding-cards.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 13rem;
+    width: 100%; }
   .project__text-content {
     width: 93%;
     margin: 0 auto; }

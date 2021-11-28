@@ -51,8 +51,7 @@ h4 {
 
 .project {
   margin: 0 auto;
-  &__content {
-  }
+
   &__card-container {
     max-width: 23rem;
     width: 100%;
@@ -63,6 +62,12 @@ h4 {
   }
 
   &__screenshot {
+    border-radius: 13px 13px 0 0;
+    background: url(../dashimages/expanding-cards.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 13rem;
+    width: 100%;
   }
 
   &__text-content {
