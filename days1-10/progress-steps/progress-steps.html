@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CUSTOM STYLESHEET -->
+
+    <link rel="stylesheet" href="progress-steps.css" />
+    <!-- Scripts -->
+    <script src="progress-steps.js" defer></script>
+    <title>50 Projects - Progress Steps</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="project-heading">Project #2: Progress Steps</h1>
+      <p class="project-description">
+        Interactive component to click through different steps and show overall
+        progress
+      </p>
+    </header>
+    <section class="progress-section container">
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+      </div>
+      <div class="progress-btns">
+        <button class="btn btn-prev" id="prev" disabled>Prev</button>
+        <button class="btn btn-next" id="next">Next</button>
+      </div>
+    </section>
+
+    <div class="return-link-container">
+      <a href="../../index.html" class="return-link">Return to Dashboard</a>
+    </div>
+  </body>
+</html>

@@ -63,11 +63,25 @@ h4 {
 
   &__screenshot {
     border-radius: 13px 13px 0 0;
-    background: url("https://btaylor13.github.io/50-mini-js-projects/dashimages/expanding-cards.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 13rem;
-    width: 100%;
+
+    &--1 {
+      background: url("https://btaylor13.github.io/50-mini-js-projects/dashimages/expanding-cards.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 11rem;
+      width: 100%;
+    }
+
+    &--2 {
+      background: url("dashimages/progress-steps.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 11rem;
+      width: 100%;
+    }
+
+    &--3 {
+    }
   }
 
   &__text-content {

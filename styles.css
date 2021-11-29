@@ -54,12 +54,19 @@ h4 {
     border-radius: 13px;
     margin: 0 auto; }
   .project__screenshot {
-    border-radius: 13px 13px 0 0;
-    background: url("https://btaylor13.github.io/50-mini-js-projects/dashimages/expanding-cards.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 13rem;
-    width: 100%; }
+    border-radius: 13px 13px 0 0; }
+    .project__screenshot--1 {
+      background: url("https://btaylor13.github.io/50-mini-js-projects/dashimages/expanding-cards.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 11rem;
+      width: 100%; }
+    .project__screenshot--2 {
+      background: url("dashimages/progress-steps.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 11rem;
+      width: 100%; }
   .project__text-content {
     width: 93%;
     margin: 0 auto; }
